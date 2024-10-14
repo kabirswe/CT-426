@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #0b1324;
+}
+.container {
+    width: 1400px;
+}
+
+nav {
+    background-color: #1e293b;
+    display: flex;
+    justify-content: center;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav .container .logo {
+    width: 100px;
+}
+
+nav .container .nav-list a {
+    color: #a8b3c0;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 30px;
+}
+nav .container .nav-right-links {
+    display: flex;
+    align-items: center;
+}
+nav .container .nav-right-links img {
+    height: 30px;
+    margin-right: 5px;
+}
+nav .container .nav-right-links a {
+    background-color: #754ffe;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 30px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: center;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.hero .content {
+    color: #fff;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.hero .content h1 {
+    color: #fff;
+    font-size: 50px;
+}
+.hero .content h1 span{
+    color: #754ffe;
+    text-decoration: underline;
+}
+.hero .content p {
+    color: #a8b3c0;
+    font-size: 24px;
+    line-height: 35px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.hero .content .cradit-card {
+    color: #a8b3c0;
+    font-size: 16px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.hero .cradit-card img {
+    width: 12px;
+    margin-right: 12px;
+}
+.hero .content .explore {
+    background-color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: #6e6f71;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 200px;
+}
+.hero .hero-img {
+    width: 60%;
+}
+.hero img {
+    width: auto;
+}
