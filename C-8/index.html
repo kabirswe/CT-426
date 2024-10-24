@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Class 8 || Flex</title>
+<link rel="stylesheet" href="style1.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <button>Click me</button>
+    <p class="red">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse distinctio quisquam aliquid omnis magnam fugit consectetur, reiciendis facere, modi officiis excepturi cumque, quibusdam minima aperiam eos veritatis. Nulla, maiores quaerat.</p>
+
+    <input type="number" id="num1">
+    <input type="number" id="num2">
+
+    <div class="box"></div>
+
+    <script>
+        $(document).ready(function(){
+            // jQuery methods go here...
+            //    $(selector).action()
+            //    text() -> only change text under html tag
+            //    html() -> change text and html
+            //    val() -> change value
+            //  addClass() -> add class
+            //  removeClass() -> remove class
+            //  toggleClass() -> toggle class
+            // css() -> change css
+
+           $("button").click(function(){
+            $("p").css("color", "green");
+           });
+
+           $.get("http://www.omdbapi.com/?t=ava&y=2019", function(data, status){
+  	            alert("Data: " + data + "\nStatus: " + status);
+                });
+            });
+
+    //    $(document).ready(function(){
+
+    //    });
+
+        // function myFunction() {
+        //   document.getElementById("demo").innerHTML = "Paragraph changed.";
+        // }
+    </script>
+        
+</div>
+</body>
+</html>

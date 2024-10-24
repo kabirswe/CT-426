@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* .container {
+    display: flex;
+    flex-direction: column;
+} */
+
+.box {
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+  

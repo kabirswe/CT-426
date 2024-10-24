@@ -1,0 +1,17 @@
+body {
+    display: block;
+}
+p {
+    font-size: 12px;
+    text-align: center;
+}
+p:first-child {
+    color: red;
+}
+p:nth-child(2) {
+    color: green;
+    opacity: 0.5;
+}
+p:nth-child(3) {
+    color: blue;
+}
